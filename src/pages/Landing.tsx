@@ -8,7 +8,7 @@ export function Landing() {
 
     return (
         <>
-            <div className="flex flex-col items-center justify-center w-full h-screen bg-[url('assets/bg.png')] bg-cover bg-center">
+            <div className="bg-image flex flex-col items-center justify-center w-full h-screen">
                 <div className="flex items-center justify-center backdrop-blur-sm w-full h-full text-white">
                     <Landing_Nav />
                 </div>
@@ -24,11 +24,11 @@ export function Landing() {
             </section>
 
             <section className="flex flex-col sm:flex-row items-center justify-center w-full h-auto sm:h-screen gap-8 px-4">
-                <div className="portrait-1 bg-white w-64 h-64 sm:w-[27em] sm:h-[27em] bg-[url('assets/portrait-1.png')] bg-center bg-cover"></div>
+                <div className="portrait-1 bg-white w-64 h-64 sm:w-[27em] sm:h-[27em]"></div>
                 <h1 className="text-[#ffffff50] w-full sm:w-[12em] text-2xl sm:text-4xl text-center">
                     Feel The Motion <span className="text-white font-medium">Captured</span> Through Breathtaking <span className="text-white font-medium">Moments</span>
                 </h1>
-                <div className="portrait-2 bg-white w-64 h-64 sm:w-[27em] sm:h-[27em] bg-[url('assets/portrait-2.png')] bg-center bg-cover"></div>
+                <div className="portrait-2 bg-white w-64 h-64 sm:w-[27em] sm:h-[27em]"></div>
             </section>
 
             <section className="flex flex-col items-center justify-center w-full h-auto sm:h-screen p-4 sm:p-30 relative">
