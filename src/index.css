@@ -11,13 +11,13 @@ body {
 
 .portrait-1 {
     box-shadow: 8em -8em 100em -4em #F8C32480;
-    background-image: url('assets/portrait-1.png');
+    background-image: url('/assets/portrait-1.png');
     background-position: center;
     background-size: cover;
 }
 .portrait-2 {
     box-shadow: -8em -8em 100em -4em #FF9D0070;
-    background-image: url('assets/portrait-2.png');
+    background-image: url('/assets/portrait-2.png');
     background-position: center;
     background-size: cover;
 }
