@@ -5,12 +5,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "dist": "react-scripts build && mv build dist", 
-    "predeploy": "npm run dist",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "dev": "vite",
+    "start": "react-scripts start",
     "build": "tsc -b && vite build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
   },
